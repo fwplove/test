@@ -1,0 +1,19 @@
+#spring:
+#  main:
+#    allow-bean-definition-overriding: true
+server:
+  port: 8080
+dubbo:
+  application:
+    name: dubbo-consumer-process-test #应用名
+  registry:
+#    address: zookeeper://168.61.2.25:2181?backup=168.61.2.23:2181,168.61.2.24:2181
+    address: zookeeper://168.63.65.196:2182?backup=168.63.65.197:2182,168.63.65.198:2182
+    check: false
+  protocol:
+    name: dubbo
+    port: 20881 #dubbo服务暴露的端口  消费者和生产不能一样
+  scan:
+    base-packages: com.fwp.demo #扫描的包名
+
+

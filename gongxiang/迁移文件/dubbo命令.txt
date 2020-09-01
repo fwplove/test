@@ -1,0 +1,15 @@
+1，进入shell终端连接服务命令：telnet ip 端口号 ，按回车键进入dubbo命令模式。
+2，查看服务列表命令：ls 
+3，查看服务详细列表：ls -l
+4，查看某个服务的方法列表：ls ***Service
+5，查看服务的方法的详细列表：ls -l ***Service
+6，调用服务的接口命令：invoke com.test.TestService.selectBuyId('name')
+7，调用服务的方法：invoke ***Service.***Method('name')
+8，查看状态列表:status -l
+9，退出当前telnet命令行：exit
+
+
+
+006864
+
+Htsc&工号@2020
