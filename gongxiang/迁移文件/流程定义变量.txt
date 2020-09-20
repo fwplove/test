@@ -1,0 +1,5 @@
+${approvers}
+${nrOfCompletedInstances/nrOfInstances >0}
+${approver}
+${approvalResult == '不同意'}
+${approvalResult == '同意'}

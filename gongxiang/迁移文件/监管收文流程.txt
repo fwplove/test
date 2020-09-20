@@ -1,0 +1,8 @@
+1.都是单人审批
+
+inner   boolean 
+head   boolean 
+revelentHead    boolean 
+assign  分配
+
+

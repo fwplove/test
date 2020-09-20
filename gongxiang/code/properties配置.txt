@@ -1,0 +1,3 @@
+#监管收文流程
+legal.content.collect.processModelName=u76d1u7ba1u6536u6587u6d41u7a0b
+legal.content.collect.business.key.prefix=JGSW
